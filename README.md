@@ -4,9 +4,10 @@
 ```json
 "com.google.firebase.database" : "https://github.com/RageAgainstThePixel/com.google.firebase.database.git#12.9.0",
 ```
-- dependency `com.google.firebase.app 12.9.0`, `external-dependency-manager 1.2.186`
+- dependency `com.google.firebase.app 12.9.0`, `com.google.firebase.auth 12.9.0`, `external-dependency-manager 1.2.186`
 ```json
 "com.google.firebase.app" : "https://github.com/RageAgainstThePixel/com.google.firebase.app.git#12.9.0",
+"com.google.firebase.auth" : "https://github.com/RageAgainstThePixel/com.google.firebase.auth.git#12.9.0",
 "com.google.external-dependency-manager": "https://github.com/googlesamples/unity-jar-resolver.git?path=upm#v1.2.186",
 ```
 
