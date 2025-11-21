@@ -1,3 +1,16 @@
+## How To Install
+### Install by add directly in `manifest.json` in folder `Packages/manifest.json`
+- for version `13.6.0`
+```json
+"com.google.firebase.database" : "https://github.com/RageAgainstThePixel/com.google.firebase.database.git#13.6.0",
+```
+- dependency `com.google.firebase.app 13.6.0`, `com.google.firebase.auth 13.6.0`, `external-dependency-manager 1.2.186`
+```json
+"com.google.firebase.app" : "https://github.com/RageAgainstThePixel/com.google.firebase.app.git#13.6.0",
+"com.google.firebase.auth" : "https://github.com/RageAgainstThePixel/com.google.firebase.auth.git#13.6.0",
+"com.google.external-dependency-manager": "https://github.com/googlesamples/unity-jar-resolver.git?path=upm#v1.2.186",
+```
+
 Get Started with Firebase Realtime Database
 ===========================================
 
@@ -40,3 +53,4 @@ and for Android on the
 * [Stack overflow](https://stackoverflow.com/questions/tagged/firebase)
 * [Slack community](https://firebase-community.slack.com/)
 * [Google groups](https://groups.google.com/forum/#!forum/firebase-talk)
+
